@@ -1,121 +1,263 @@
-*{margin:0;padding:0;}
-img{display:block;}
-html,body{height:100%;}
-.swiper-container {width: 100%;height: 100%;}  
-.swiper-slide{width:100%;height:100%;}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+
 /* 必备 */
-.ani{position:absolute;}
+
+.ani {
+    position: absolute;
+}
+
+
 /* 分页中的小点 */
+
 .swiper-pagination-bullet {
-width: 6px;height: 6px;background: #f00;opacity: .4;}
-.swiper-pagination-bullet-active {opacity: 1;}
+    width: 6px;
+    height: 6px;
+    background: #f00;
+    opacity: .4;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
 
 
 /* 内容 */
+
 .page1 {
     background-color: #083846;
 }
-.page1 .first-img{
-	width: 80%;
-	top:1%;
-	left:10%;
-}
-.page1 .first-txt{
-	width: 60%;
-	top:65%;
-	left:20%;
+
+.page1 .first-img {
+    width: 80%;
+    top: 1%;
+    left: 10%;
 }
 
-.page2{
+.page1 .first-txt {
+    width: 60%;
+    top: 65%;
+    left: 20%;
+}
+
+.page2 {
     background-color: #9261BF;
 }
-.page2 .word{
-	width: 50%;
-	top:2%;
-	left:25%;
+
+.page2 .word {
+    width: 50%;
+    top: 2%;
+    left: 25%;
 }
-.page2 .peo{
-	width: 70%;
-	top:40%;
-	left:20%;
-	z-index: 1;
+
+.page2 .peo {
+    width: 70%;
+    top: 40%;
+    left: 20%;
+    z-index: 1;
 }
-.page2 .cir{
-	width: 75%;
-	top:30%;
-	left:13%;
+
+.page2 .cir {
+    width: 75%;
+    top: 30%;
+    left: 13%;
 }
-.page2 .flt{
-	width: 80%;
-	top:8%;
-	right:6%;
+
+.page2 .flt {
+    width: 80%;
+    top: 8%;
+    right: 6%;
 }
 
 .page3 {
     background-color: #F3533C;
 }
-.page3 .word{
-	width: 50%;
-	top:2%;
-	left:25%;
+
+.page3 .word {
+    width: 50%;
+    top: 2%;
+    left: 25%;
 }
-.page3 .peo{
-	width: 50%;
-	top:30%;
-	left:30%;
-	z-index: 3;
+
+.page3 .peo {
+    width: 50%;
+    top: 30%;
+    left: 30%;
+    z-index: 3;
 }
-.page3 .cir{
-	width: 75%;
-	top:30%;
-	left:13%;
+
+.page3 .cir {
+    width: 75%;
+    top: 30%;
+    left: 13%;
 }
-.page3 .flt{
-	width: 60%;
-	top:44%;
-	left:13%;
-	z-index: 2;
+
+.page3 .flt {
+    width: 60%;
+    top: 44%;
+    left: 13%;
+    z-index: 2;
 }
+
 .page4 {
     background-color: #FFBF50;
 }
-.page4 .pro{
-	width: 50%;
-	top:2%;
-	left:25%;
+
+.page4 .pro {
+    width: 50%;
+    top: 2%;
+    left: 25%;
 }
-.page4 .pic{
-	width: 50%;
-	top:80%;
-	left:25%;
+
+.page4 .pic {
+    width: 50%;
+    top: 80%;
+    left: 25%;
 }
-.page4 .peo{
-	width: 50%;
-	top:30%;
-	left:30%;
-	z-index: 3;
+
+.page4 .peo {
+    width: 50%;
+    top: 30%;
+    left: 30%;
+    z-index: 3;
 }
-.page4 .cir{
-	width: 75%;
-	top:30%;
-	left:13%;
+
+.page4 .cir {
+    width: 75%;
+    top: 30%;
+    left: 13%;
 }
-.page4 .flt{
-	width: 80%;
-	top:40%;
-	left:10%;
-	z-index: 2;
+
+.page4 .flt {
+    width: 80%;
+    top: 40%;
+    left: 10%;
+    z-index: 2;
 }
-.page5{
+
+.page5 {
     background-color: #083846;
 }
-.page5 .pic{
-	width: 80%;
-	top:20%;
-	left:10%;
+
+.page5 .pic {
+    width: 80%;
+    top: 20%;
+    left: 10%;
 }
-.page5 .btn{
-	width: 80%;
-	top:70%;
-	left:10%;
+
+.page5 .btn {
+    width: 80%;
+    top: 70%;
+    left: 10%;
+}
+
+@media screen and (max-width: 340px) {
+    .page1 .first-img {
+        width: 70%;
+        top: 1%;
+        left: 14%;
+    }
+    .page1 .first-txt {
+        width: 50%;
+        top: 65%;
+        left: 24%;
+    }
+    .page2 .word {
+        width: 40%;
+        top: 2%;
+        left: 30%;
+    }
+    .page2 .peo {
+        width: 60%;
+        top: 40%;
+        left: 25%;
+    }
+    .page2 .cir {
+        width: 65%;
+        top: 30%;
+        left: 18%;
+    }
+    .page2 .flt {
+        width: 70%;
+        top: 8%;
+        right: 11%;
+    }
+    .page3 .word {
+        width: 40%;
+        top: 2%;
+        left: 30%;
+    }
+    .page3 .peo {
+        width: 40%;
+        top: 30%;
+        left: 35%;
+    }
+    .page3 .cir {
+        width: 65%;
+        top: 30%;
+        left: 18%;
+    }
+    .page3 .flt {
+        width: 50%;
+        top: 44%;
+        left: 18%;
+    }
+    .page4 .pro {
+        width: 40%;
+        top: 2%;
+        left: 30%;
+    }
+    .page4 .pic {
+        width: 40%;
+        top: 80%;
+        left: 30%;
+    }
+    .page4 .peo {
+        width: 40%;
+        top: 30%;
+        left: 35%;
+    }
+    .page4 .cir {
+        width: 65%;
+        top: 30%;
+        left: 18%;
+    }
+    .page4 .flt {
+        width: 70%;
+        top: 40%;
+        left: 15%;
+        z-index: 2;
+    }
+    .page5 .pic {
+        width: 70%;
+        top: 20%;
+        left: 15%;
+    }
+    .page5 .btn {
+    width: 70%;
+    top: 70%;
+    left: 15%;
+	}
 }
