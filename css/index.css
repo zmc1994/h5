@@ -173,7 +173,7 @@ body {
     left: 10%;
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 360px) {
     .page1 .first-img {
         width: 70%;
         top: 1%;
@@ -231,7 +231,7 @@ body {
     }
     .page4 .pic {
         width: 40%;
-        top: 80%;
+        top: 85%;
         left: 30%;
     }
     .page4 .peo {
